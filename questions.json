@@ -1,0 +1,941 @@
+{
+ "version": "q2-2026-11-03",
+ "note": "Every defect question is a yes/no (Jev 'noul') where YES means a problem is visible. A checklist item is flagged when any of its questions is flagged. {IMG} is replaced by `photo` (whole-image pass) or by `photo` and its `close_ups` (close-up pass). set 'core' = the 52 questions written first. set 'detail' = 77 finer questions added afterwards; several were written after reading the audit's findings, so they may score better on those failure types than a fresh question would. score.py reports core alone and core plus detail. In this public copy, BRAND and MAKER stand in for the real battery wordmark and the gear maker's name used in the test.",
+ "skipped_items": {},
+ "context": {
+  "product": "A black electric bike with a moped-style frame and 20 inch fat tyres, shown in a generated studio product photograph for a product reference sheet.",
+  "sides": "The bike's right side is on the rider's right when sitting on the seat facing forward. In a side view with the front wheel on the right of the picture, you see the bike's right side; with the front wheel on the left, you see its left side.",
+  "rule": "Judge only what is visible. A part that the camera angle hides is not a problem."
+ },
+ "views": {
+  "right-side": "Right side profile: the camera looks straight at the bike's right side at 90 degrees, front wheel on the right of the picture.",
+  "left-side": "Left side profile: the camera looks straight at the bike's left side at 90 degrees, front wheel on the left of the picture.",
+  "front": "Straight front view: the camera is directly in front of the bike on its centre line, facing the headlight.",
+  "rear": "Straight rear view: the camera is directly behind the bike on its centre line, facing the taillight.",
+  "top": "Top-down view: the camera looks straight down at the bike from above.",
+  "three-quarter-front-right": "Three-quarter front right: the camera is about 45 degrees between the front of the bike and its right side; the front wheel is nearer the camera.",
+  "three-quarter-front-left": "Three-quarter front left: the camera is about 45 degrees between the front of the bike and its left side; the front wheel is nearer the camera.",
+  "three-quarter-rear-right": "Three-quarter rear right: the camera is about 45 degrees between the back of the bike and its right side; the rear wheel is nearer the camera.",
+  "three-quarter-rear-left": "Three-quarter rear left: the camera is about 45 degrees between the back of the bike and its left side; the rear wheel is nearer the camera.",
+  "cockpit": "Cockpit view: the handlebar, controls and screen seen from the rider's position, behind and above the handlebar.",
+  "detail": "Detail view: a close-up of one part, with most of the bike out of frame."
+ },
+ "defect_questions": {
+  "a1_wrong_view": {
+   "set": "core",
+   "item": "A1",
+   "instructions": "Is {IMG} taken from a different camera angle than `intended_view`?",
+   "criteria": {
+    "true": "The camera angle clearly differs from intended_view, for example a side view when a front view was asked, the opposite side of the bike, or a three-quarter view from the wrong corner.",
+    "false": "The camera angle matches intended_view."
+   }
+  },
+  "a1_not_square": {
+   "set": "detail",
+   "item": "A1",
+   "instructions": "If `intended_view` is a straight side, front or rear view, is the camera in {IMG} noticeably turned toward a corner of the bike instead of square to it?",
+   "criteria": {
+    "true": "A straight view was asked and the camera is clearly turned toward a corner.",
+    "false": "The camera is square to the bike, or intended_view is a three-quarter, top or cockpit view."
+   }
+  },
+  "a1_opposite_corner": {
+   "set": "detail",
+   "item": "A1",
+   "instructions": "If `intended_view` is a three-quarter view, is the wheel nearest the camera in {IMG} the wrong one (front instead of rear, or rear instead of front), or is the opposite side of the bike shown?",
+   "criteria": {
+    "true": "A three-quarter view was asked and the nearer wheel or the side shown is wrong.",
+    "false": "It matches, or intended_view is not a three-quarter view."
+   }
+  },
+  "a2_drive_on_left": {
+   "set": "core",
+   "item": "A2",
+   "instructions": "Does {IMG} show the chain, chainring, gear cassette or rear derailleur on the bike's left side?",
+   "criteria": {
+    "true": "The chain or gears are on the bike's left side, as in a mirror image of the real bike.",
+    "false": "The chain and gears are on the bike's right side, or are not visible."
+   }
+  },
+  "a2_derailleur_left": {
+   "set": "detail",
+   "item": "A2",
+   "instructions": "Is the rear derailleur (the small gear-changing arm hanging below the rear gears) on the bike's left side in {IMG}?",
+   "criteria": {
+    "true": "The derailleur is visible on the bike's left side.",
+    "false": "It is on the right side, or not visible."
+   }
+  },
+  "a3_wheel_not_round": {
+   "set": "core",
+   "item": "A3",
+   "instructions": "Does either wheel in {IMG} look squashed, bent or oval in a way the camera angle does not explain?",
+   "criteria": {
+    "true": "A wheel is misshapen, or in a straight side view a wheel is oval.",
+    "false": "The wheels look round, or look oval only because the camera sees them at an angle."
+   }
+  },
+  "a3_axles_uneven": {
+   "set": "detail",
+   "item": "A3",
+   "instructions": "In a straight side view, are the front and rear axles in {IMG} at clearly different heights?",
+   "criteria": {
+    "true": "It is a straight side view and one axle sits clearly higher than the other.",
+    "false": "The axles are level, or it is not a straight side view."
+   }
+  },
+  "a4_stretched": {
+   "set": "detail",
+   "item": "A4",
+   "instructions": "Does any section of the bike in {IMG} look stretched, shrunk or out of proportion, for example an extra-long wheelbase, a tiny seat, an oversized battery or a very tall handlebar?"
+  },
+  "a4_wheel_size": {
+   "set": "detail",
+   "item": "A4",
+   "instructions": "Do the wheels in {IMG} look like large 26 or 29 inch bicycle wheels rather than small 20 inch wheels with very fat tyres?"
+  },
+  "a5_loop_space": {
+   "set": "detail",
+   "item": "A5",
+   "instructions": "On the real bike the frame forms one large open loop under the seat, with the battery inside it. In {IMG}, is that open space filled in, blocked by extra tubes or panels, or split into different shapes?",
+   "criteria": {
+    "true": "The frame loop is visible and its open space is filled, blocked or split differently.",
+    "false": "It is one open loop around the battery, or the loop is not visible."
+   }
+  },
+  "a6_duplicated_part": {
+   "set": "core",
+   "item": "A6",
+   "instructions": "Does {IMG} show two of a part where a bike has only one, for example two button pods on one grip or two seats?"
+  },
+  "a6_fused_part": {
+   "set": "core",
+   "item": "A6",
+   "instructions": "Does any part in {IMG} look melted, fused into another part, drawn in a different perspective from the rest of the bike, or floating unattached?"
+  },
+  "a6_loose_cable": {
+   "set": "core",
+   "item": "A6",
+   "instructions": "Does any cable in {IMG} end in mid-air or connect to nothing?"
+  },
+  "a6_part_through_part": {
+   "set": "detail",
+   "item": "A6",
+   "instructions": "Does any part in {IMG} pass through or sit in the wrong place relative to another part, for example a tyre outside the fork legs instead of between them?"
+  },
+  "a6_too_many": {
+   "set": "detail",
+   "item": "A6",
+   "instructions": "Does the bike in {IMG} have more than two wheels, more than two pedals, more than one handlebar screen, or more than one gear shifter?"
+  },
+  "a7_background": {
+   "set": "core",
+   "item": "A7",
+   "instructions": "Is the background of {IMG} anything other than plain white?"
+  },
+  "a7_props": {
+   "set": "core",
+   "item": "A7",
+   "instructions": "Does {IMG} show any object other than the bike, or a reflection of the bike on the floor?"
+  },
+  "a7_no_shadow": {
+   "set": "detail",
+   "item": "A7",
+   "instructions": "Is there no soft shadow under the tyres in {IMG}, so the bike looks like it is floating?"
+  },
+  "a8_kickstand_down": {
+   "set": "core",
+   "item": "A8",
+   "instructions": "Is the bike's kickstand down, reaching the ground, in {IMG}?",
+   "criteria": {
+    "true": "A stand leg reaches down from the frame to the floor.",
+    "false": "The kickstand is folded up against the frame, or is not visible."
+   }
+  },
+  "a8_not_upright": {
+   "set": "core",
+   "item": "A8",
+   "instructions": "Is the bike in {IMG} tipped over or lying down rather than standing on its wheels?"
+  },
+  "a8_stand_leg_angled": {
+   "set": "detail",
+   "item": "A8",
+   "instructions": "Is there any black bar or leg angled down and outward from the frame between the pedals and the rear wheel in {IMG}, with a foot near the floor?",
+   "criteria": {
+    "true": "Such a leg is visible, even if it is partly hidden or seen from above.",
+    "false": "No such leg is visible."
+   }
+  },
+  "a8_leaning": {
+   "set": "detail",
+   "item": "A8",
+   "instructions": "Does the bike in {IMG} lean to one side, as if resting on a kickstand?"
+  },
+  "a9_person": {
+   "set": "core",
+   "item": "A9",
+   "instructions": "Is a person, or any part of a person such as a hand, leg or foot, visible in {IMG}?"
+  },
+  "a9_accessory": {
+   "set": "core",
+   "item": "A9",
+   "instructions": "Does the bike in {IMG} carry a basket, box, bag or other add-on accessory?"
+  },
+  "a9_extra_light": {
+   "set": "core",
+   "item": "A9",
+   "instructions": "Does the bike in {IMG} have any light other than one round headlight at the front and one red taillight under the back of the seat?"
+  },
+  "a9_small_addons": {
+   "set": "detail",
+   "item": "A9",
+   "instructions": "Is there a helmet, phone holder, mirror, bottle, lock or bell on the bike in {IMG}?"
+  },
+  "a9_lights_on": {
+   "set": "detail",
+   "item": "A9",
+   "instructions": "Is the headlight or any other light in {IMG} switched on or glowing?"
+  },
+  "a10_tyre_text": {
+   "set": "core",
+   "item": "A10",
+   "instructions": "Is there any lettering, text or embossed writing on the tyre sidewalls in {IMG}?"
+  },
+  "a10_garbled_text": {
+   "set": "core",
+   "item": "A10",
+   "instructions": "Is there any garbled, misspelled, mirrored or nonsense text anywhere on the bike in {IMG}, including small print on the gears, shifter, buttons, hub or frame?",
+   "criteria": {
+    "true": "Some lettering on the bike is not real readable text, or is mirrored or misspelled.",
+    "false": "All visible lettering is readable and correct, or there is no lettering apart from the battery word."
+   }
+  },
+  "a10_battery_word": {
+   "set": "core",
+   "item": "A10",
+   "instructions": "Is the word printed on the battery in {IMG} anything other than a correctly spelled BRAND?",
+   "criteria": {
+    "true": "The battery word is misspelled, garbled, mirrored or a different word.",
+    "false": "It reads BRAND correctly, or the battery print is not visible."
+   }
+  },
+  "a10_text_derailleur": {
+   "set": "detail",
+   "item": "A10",
+   "instructions": "Is there any lettering on the rear derailleur in {IMG} that is not a clean, correctly spelled MAKER?",
+   "criteria": {
+    "true": "The derailleur is visible and carries garbled, extra or misspelled lettering.",
+    "false": "Its lettering reads MAKER, it has none, or it is not visible."
+   }
+  },
+  "a10_text_shifter": {
+   "set": "detail",
+   "item": "A10",
+   "instructions": "Is the writing on the right-hand gear shifter in {IMG} garbled, mirrored, replaced by a blank bar, or anything other than MAKER with gear numbers 1 to 7?",
+   "criteria": {
+    "true": "The shifter is visible and its writing is wrong.",
+    "false": "It reads correctly, or the shifter is not visible or too small to read."
+   }
+  },
+  "a10_text_buttons": {
+   "set": "detail",
+   "item": "A10",
+   "instructions": "Do the red or green handlebar buttons in {IMG} carry letters or text instead of a small icon?",
+   "criteria": {
+    "true": "The buttons are visible and show letters or text.",
+    "false": "They show small icons or nothing, or are not visible."
+   }
+  },
+  "a10_text_hub": {
+   "set": "detail",
+   "item": "A10",
+   "instructions": "Is there a ring of writing or small text around the rear hub motor in {IMG}?"
+  },
+  "a10_text_frame": {
+   "set": "detail",
+   "item": "A10",
+   "instructions": "Is there any label, sticker or writing on the frame tubes, fork, fenders or seat in {IMG}?"
+  },
+  "a10_battery_small_print": {
+   "set": "detail",
+   "item": "A10",
+   "instructions": "Is there any small print or marking on the battery in {IMG} other than the BRAND word and its registered-trademark mark?"
+  },
+  "a11_not_photo": {
+   "set": "core",
+   "item": "A11",
+   "instructions": "Does {IMG} look like a 3D render, drawing or illustration rather than a real studio photograph?"
+  },
+  "a11_glossy_frame": {
+   "set": "core",
+   "item": "A11",
+   "instructions": "Does the bike frame in {IMG} look glossy or like plastic, rather than satin painted metal?"
+  },
+  "a11_smeared": {
+   "set": "detail",
+   "item": "A11",
+   "instructions": "Are any parts of the bike in {IMG} blurry, smeared or painted-looking while the rest is sharp?"
+  },
+  "b1_frame_shape": {
+   "set": "core",
+   "item": "B1",
+   "instructions": "The real frame is a moped-style loop: a long horizontal top rail that carries the seat, with a curved down tube forming a loop below it. Does the frame in {IMG} have a clearly different shape?",
+   "criteria": {
+    "true": "The visible frame is a different shape, such as a diamond bicycle frame, a step-through frame, or a loop that is missing or broken.",
+    "false": "The frame matches, or not enough of it is visible to judge."
+   }
+  },
+  "b1_step_through": {
+   "set": "detail",
+   "item": "B1",
+   "instructions": "Is the frame in {IMG} a step-through, with no top rail under the seat?"
+  },
+  "b1_extra_tubes": {
+   "set": "detail",
+   "item": "B1",
+   "instructions": "Does the frame in {IMG} have extra tubes or braces that a simple loop frame would not have?"
+  },
+  "b2_frame_colour": {
+   "set": "core",
+   "item": "B2",
+   "instructions": "Is the bike frame in {IMG} any colour other than black?"
+  },
+  "b2_frame_shiny": {
+   "set": "detail",
+   "item": "B2",
+   "instructions": "Does the frame in {IMG} show bright mirror-like highlights, as glossy paint would, rather than a low satin sheen?"
+  },
+  "b3_battery_place": {
+   "set": "core",
+   "item": "B3",
+   "instructions": "The real battery is a large pack mounted at an angle in the centre of the frame loop, below the seat. In {IMG}, is the battery missing from that place or mounted somewhere else?",
+   "criteria": {
+    "true": "The battery area is visible and the pack is missing or in another place.",
+    "false": "The battery is in place, or that area is not visible."
+   }
+  },
+  "b3_battery_level": {
+   "set": "detail",
+   "item": "B3",
+   "instructions": "Is the battery in {IMG} mounted flat (horizontal) or upright (vertical) instead of tilted at an angle?",
+   "criteria": {
+    "true": "The battery is visible and is not tilted.",
+    "false": "It is tilted, or not visible."
+   }
+  },
+  "b3_battery_hidden": {
+   "set": "detail",
+   "item": "B3",
+   "instructions": "Is the battery in {IMG} hidden inside a frame tube instead of being an exposed pack?"
+  },
+  "b4_battery_print_direction": {
+   "set": "core",
+   "item": "B4",
+   "instructions": "On the real bike the battery word reads upward toward the front of the bike on its right side, and downward toward the back on its left side. Is the battery word in {IMG} upside down, mirrored, or running the other way?",
+   "criteria": {
+    "true": "The battery print is visible and its direction or orientation is wrong for the side shown.",
+    "false": "The direction is right, or the print is not visible."
+   }
+  },
+  "b4_word_colour": {
+   "set": "detail",
+   "item": "B4",
+   "instructions": "Is the BRAND word on the battery in {IMG} any colour other than white?",
+   "criteria": {
+    "true": "The battery word is visible and is not white.",
+    "false": "It is white, or not visible."
+   }
+  },
+  "b4_mark_missing": {
+   "set": "detail",
+   "item": "B4",
+   "instructions": "Where the battery word in {IMG} is fully visible, is the small registered-trademark mark missing from its end?",
+   "criteria": {
+    "true": "The whole word is visible and has no registered-trademark mark at either end.",
+    "false": "The mark is there, or the word is not fully visible or too small to tell."
+   }
+  },
+  "b5_key_inserted": {
+   "set": "core",
+   "item": "B5",
+   "instructions": "Is there a key, or a key with a key ring, inserted in the battery lock in {IMG}?"
+  },
+  "b5_lock_wrong_side": {
+   "set": "core",
+   "item": "B5",
+   "instructions": "On the real battery, the right side has a red round button and a black round port at the top end, and only the left side has a silver key cylinder. Does {IMG} show a silver key cylinder on the battery's right side, or a red button on its left side?"
+  },
+  "b5_both_on_one_side": {
+   "set": "detail",
+   "item": "B5",
+   "instructions": "Does one side of the battery in {IMG} show both a silver key cylinder and a red button?"
+  },
+  "b5_lock_missing": {
+   "set": "detail",
+   "item": "B5",
+   "instructions": "Where the top end of the battery is clearly visible in {IMG}, is there no lock, button or port at all?",
+   "criteria": {
+    "true": "The top end of the battery is clearly visible and blank.",
+    "false": "A lock, button or port is there, or the top end is not visible."
+   }
+  },
+  "b6_seat_shape": {
+   "set": "core",
+   "item": "B6",
+   "instructions": "The real seat is a long flat black bench with a kick-up at the back. Is the seat in {IMG} a clearly different shape or colour?"
+  },
+  "b6_seat_short": {
+   "set": "detail",
+   "item": "B6",
+   "instructions": "Is the seat in {IMG} short or shaped like a bicycle saddle rather than a long flat bench?"
+  },
+  "b6_no_kickup": {
+   "set": "detail",
+   "item": "B6",
+   "instructions": "Is the back end of the seat in {IMG} flat, with no upward kick?",
+   "criteria": {
+    "true": "The back of the seat is visible and flat.",
+    "false": "It kicks up, or is not visible."
+   }
+  },
+  "b7_seat_smooth": {
+   "set": "core",
+   "item": "B7",
+   "instructions": "Is the seat surface in {IMG} smooth, rather than ribbed or pleated?",
+   "criteria": {
+    "true": "The visible seat surface has no ribs or pleats.",
+    "false": "The seat is ribbed or pleated, or its surface is not visible."
+   }
+  },
+  "b7_seat_marks": {
+   "set": "core",
+   "item": "B7",
+   "instructions": "The real seat has a few solid thin white reflective dashes. Are the white marks on the seat in {IMG} broken into squares, dots or short segments, or arranged in a different pattern?",
+   "criteria": {
+    "true": "The white marks are visible and are not a few solid thin dashes.",
+    "false": "The marks are solid thin dashes, or not visible."
+   }
+  },
+  "b7_seat_glossy": {
+   "set": "detail",
+   "item": "B7",
+   "instructions": "Is the seat in {IMG} shiny or glossy rather than low-sheen leather?"
+  },
+  "b7_marks_on_side": {
+   "set": "detail",
+   "item": "B7",
+   "instructions": "Is there a white reflective mark on the vertical side face of the seat in {IMG}, rather than only on its top edges?"
+  },
+  "b8_bracket_cutouts": {
+   "set": "core",
+   "item": "B8",
+   "instructions": "The headlight hangs on flat brackets on either side of the fork, and each bracket has a row of round holes. Do the brackets in {IMG} show chevrons, crescents, triangles or any cut-out shape other than round holes?",
+   "criteria": {
+    "true": "The brackets are visible and their cut-outs are not round holes.",
+    "false": "The cut-outs are round holes, or the brackets are not visible."
+   }
+  },
+  "b8_housing": {
+   "set": "detail",
+   "item": "B8",
+   "instructions": "Is the headlight housing in {IMG} any shape other than round, or any colour other than matte black?"
+  },
+  "b8_no_brackets": {
+   "set": "detail",
+   "item": "B8",
+   "instructions": "Is the headlight in {IMG} attached without flat side brackets, for example on a single stalk?",
+   "criteria": {
+    "true": "The headlight mounting is visible and has no flat side brackets.",
+    "false": "It hangs on flat side brackets, or the mounting is not visible."
+   }
+  },
+  "b9_cage_pattern": {
+   "set": "core",
+   "item": "B9",
+   "instructions": "The real headlight lens is covered by a black wire cage in a spider-web pattern. Is the cage in {IMG} a square or criss-cross grid, or missing?",
+   "criteria": {
+    "true": "The headlight front is visible and its cage is not a web pattern.",
+    "false": "The cage is a web pattern, or the headlight front is not visible."
+   }
+  },
+  "b9_cage_missing": {
+   "set": "detail",
+   "item": "B9",
+   "instructions": "Where the front of the headlight is visible in {IMG}, is there no wire cage over the lens?"
+  },
+  "b9_cage_colour": {
+   "set": "detail",
+   "item": "B9",
+   "instructions": "Is the headlight cage in {IMG} any colour other than black?"
+  },
+  "b10_lens": {
+   "set": "core",
+   "item": "B10",
+   "instructions": "Behind the cage, the real headlight has a clear projector lens with silver fins and a white ring. Is the lens in {IMG} a plain bulb, coloured, or missing the white ring?",
+   "criteria": {
+    "true": "The lens is visible and does not match.",
+    "false": "It matches, or the lens is not visible."
+   }
+  },
+  "b10_no_fins": {
+   "set": "detail",
+   "item": "B10",
+   "instructions": "Where the headlight lens is visible in {IMG}, are the silver radial fins behind it missing?"
+  },
+  "b11_fork": {
+   "set": "core",
+   "item": "B11",
+   "instructions": "The real front fork has twin black upper tubes with a motorcycle-style clamp. Is any part of the fork in {IMG} a colour other than black, or does it look like a thin single bicycle fork?"
+  },
+  "b11_fork_label": {
+   "set": "detail",
+   "item": "B11",
+   "instructions": "Is there any label, sticker or coloured mark on the front fork legs in {IMG}?"
+  },
+  "b11_thin_fork": {
+   "set": "detail",
+   "item": "B11",
+   "instructions": "Does the front fork in {IMG} look like a thin rigid bicycle fork rather than chunky suspension tubes?"
+  },
+  "b12_low_bar": {
+   "set": "detail",
+   "item": "B12",
+   "instructions": "The real handlebar is a tall riser bar that rises well above the stem. Is the handlebar in {IMG} a low flat bar, a drop bar or a short bar?",
+   "criteria": {
+    "true": "The handlebar is visible and is not a tall riser bar.",
+    "false": "It is a tall riser bar, or not visible."
+   }
+  },
+  "b12_bar_colour": {
+   "set": "detail",
+   "item": "B12",
+   "instructions": "Is the handlebar in {IMG} any colour other than black?"
+  },
+  "b13_display_missing": {
+   "set": "core",
+   "item": "B13",
+   "instructions": "The real bike has a tall upright screen in the centre of the handlebar. Is that screen missing in {IMG}?",
+   "criteria": {
+    "true": "The centre of the handlebar is visible and has no screen.",
+    "false": "The screen is there, or the handlebar centre is not visible."
+   }
+  },
+  "b13_display_on": {
+   "set": "core",
+   "item": "B13",
+   "instructions": "Is the handlebar screen in {IMG} switched on, lit, or showing numbers or icons?"
+  },
+  "b13_display_shape": {
+   "set": "detail",
+   "item": "B13",
+   "instructions": "Is the handlebar screen in {IMG} wide and short, or round, instead of tall and upright?",
+   "criteria": {
+    "true": "The screen is visible and not tall and upright.",
+    "false": "It is tall and upright, or not visible."
+   }
+  },
+  "b13_display_bezel": {
+   "set": "detail",
+   "item": "B13",
+   "instructions": "Does the handlebar screen in {IMG} have a thick frame around a small inset grey panel, instead of a glossy dark face that fills the housing?",
+   "criteria": {
+    "true": "The screen face is visible and is a small inset panel in a thick frame.",
+    "false": "It is a glossy dark face filling the housing, or not visible."
+   }
+  },
+  "b13_display_off_centre": {
+   "set": "detail",
+   "item": "B13",
+   "instructions": "Is the handlebar screen in {IMG} off to one side instead of centred on the handlebar?"
+  },
+  "b14_left_controls": {
+   "set": "core",
+   "item": "B14",
+   "instructions": "The real left grip has one small pod with a glossy red button and a glossy green button, plus a brake lever. Does the left grip in {IMG} show more than one pod, buttons of other colours, or any other control?",
+   "criteria": {
+    "true": "The left grip is visible and its controls differ.",
+    "false": "They match, or the left grip is not visible."
+   }
+  },
+  "b14_two_pods": {
+   "set": "detail",
+   "item": "B14",
+   "instructions": "Is there more than one button pod on the left grip in {IMG}?"
+  },
+  "b14_button_colours": {
+   "set": "detail",
+   "item": "B14",
+   "instructions": "Are the left-grip buttons in {IMG} any colours other than one red and one green?",
+   "criteria": {
+    "true": "The buttons are visible and are not one red and one green.",
+    "false": "They are one red and one green, or not visible."
+   }
+  },
+  "b14_shifter_on_left": {
+   "set": "detail",
+   "item": "B14",
+   "instructions": "Is there a gear shifter or thumb lever on the left grip in {IMG}?"
+  },
+  "b14_no_left_lever": {
+   "set": "detail",
+   "item": "B14",
+   "instructions": "Is the brake lever missing from the left grip in {IMG}?",
+   "criteria": {
+    "true": "The left grip is clearly visible and has no brake lever.",
+    "false": "It has a brake lever, or the left grip is not clearly visible."
+   }
+  },
+  "b15_shifter": {
+   "set": "core",
+   "item": "B15",
+   "instructions": "The real right grip has a black brake lever and a silver-and-black thumb gear shifter. In {IMG}, is the shifter missing, or all black with no silver?",
+   "criteria": {
+    "true": "The right grip is visible and the shifter is missing or not silver-and-black.",
+    "false": "The shifter is silver-and-black, or the right grip is not visible."
+   }
+  },
+  "b15_lever_colour": {
+   "set": "detail",
+   "item": "B15",
+   "instructions": "Is the right brake lever in {IMG} any colour other than black?"
+  },
+  "b15_no_shifter": {
+   "set": "detail",
+   "item": "B15",
+   "instructions": "Where the right grip is clearly visible in {IMG}, is there no thumb gear shifter at all?",
+   "criteria": {
+    "true": "The right grip is clearly visible and has no shifter.",
+    "false": "A shifter is there, or the right grip is not clearly visible."
+   }
+  },
+  "b15_pod_icon": {
+   "set": "detail",
+   "item": "B15",
+   "instructions": "The real right grip also has a small round pod whose button shows a white down-arrow. Does that button in {IMG} show any other symbol?",
+   "criteria": {
+    "true": "The pod button is visible and shows a different symbol.",
+    "false": "It shows a down-arrow, or is not visible or too small to tell."
+   }
+  },
+  "b16_cables": {
+   "set": "core",
+   "item": "B16",
+   "instructions": "Are the cables running from the handlebar in {IMG} any colour other than black?"
+  },
+  "b16_loose": {
+   "set": "detail",
+   "item": "B16",
+   "instructions": "Are the handlebar cables in {IMG} loose and separate rather than bundled in a spiral wrap?",
+   "criteria": {
+    "true": "The cables are visible and are not bundled.",
+    "false": "They are spiral-wrapped, or not visible."
+   }
+  },
+  "b17_front_fender": {
+   "set": "core",
+   "item": "B17",
+   "instructions": "Is the front fender in {IMG} glossy, coloured, or missing?",
+   "criteria": {
+    "true": "The front wheel is visible and its fender is missing, glossy or not black.",
+    "false": "A matte black front fender is there, or the front wheel is not visible."
+   }
+  },
+  "b17_fender_emblem": {
+   "set": "detail",
+   "item": "B17",
+   "instructions": "Where the top of the front fender is visible in {IMG}, is the small white line-art emblem missing from it?",
+   "criteria": {
+    "true": "The top of the front fender is clearly visible and has no white emblem.",
+    "false": "The emblem is there, or the top of the fender is not visible."
+   }
+  },
+  "b17_fender_shape": {
+   "set": "detail",
+   "item": "B17",
+   "instructions": "Is the front fender in {IMG} short, flat or flap-like rather than curving over the tyre?"
+  },
+  "b18_rear_fender": {
+   "set": "core",
+   "item": "B18",
+   "instructions": "Is the rear fender in {IMG} glossy, coloured, short, or missing?",
+   "criteria": {
+    "true": "The rear wheel is visible and its fender is missing, glossy, short or not black.",
+    "false": "A long matte black rear fender is there, or the rear wheel is not visible."
+   }
+  },
+  "b18_no_stays": {
+   "set": "detail",
+   "item": "B18",
+   "instructions": "Is the rear fender in {IMG} floating with no support stays?"
+  },
+  "b19_shocks": {
+   "set": "core",
+   "item": "B19",
+   "instructions": "Are the rear shock springs in {IMG} any colour other than red?"
+  },
+  "b19_one_missing": {
+   "set": "detail",
+   "item": "B19",
+   "instructions": "In a rear view, or a view where both sides of the rear wheel can be seen, is one of the two rear shocks missing in {IMG}?",
+   "criteria": {
+    "true": "Both sides of the rear wheel are visible and only one shock is there.",
+    "false": "Both shocks are there, or only one side can be seen."
+   }
+  },
+  "b19_no_coil": {
+   "set": "detail",
+   "item": "B19",
+   "instructions": "Do the rear shocks in {IMG} lack visible coil springs?",
+   "criteria": {
+    "true": "The rear shocks are visible and have no coil springs.",
+    "false": "They have coil springs, or are not visible."
+   }
+  },
+  "b20_tyres": {
+   "set": "core",
+   "item": "B20",
+   "instructions": "Are the tyres in {IMG} thin bicycle tyres or smooth tyres, rather than fat tyres with deep knobby tread?"
+  },
+  "b20_tyre_colour": {
+   "set": "detail",
+   "item": "B20",
+   "instructions": "Are the tyres in {IMG} any colour other than black, for example with tan or white walls?"
+  },
+  "b21_rim_colour": {
+   "set": "detail",
+   "item": "B21",
+   "instructions": "Are the wheel rims or spokes in {IMG} any colour other than black?"
+  },
+  "b21_spoke_style": {
+   "set": "detail",
+   "item": "B21",
+   "instructions": "Are the wheels in {IMG} solid, mag-style or thick-spoked instead of many thin wire spokes?"
+  },
+  "b22_rotors": {
+   "set": "core",
+   "item": "B22",
+   "instructions": "Are the brake discs in {IMG} anything other than bright silver discs with drilled holes?"
+  },
+  "b22_rotor_missing": {
+   "set": "detail",
+   "item": "B22",
+   "instructions": "Is a brake disc missing from a wheel whose hub is clearly visible on the brake side in {IMG}?",
+   "criteria": {
+    "true": "A wheel's brake side is clearly visible and has no disc.",
+    "false": "Each visible brake side has a disc, or the brake side is not visible."
+   }
+  },
+  "b23_callipers": {
+   "set": "core",
+   "item": "B23",
+   "instructions": "Are the brake callipers in {IMG} any colour other than black?"
+  },
+  "b23_calliper_missing": {
+   "set": "detail",
+   "item": "B23",
+   "instructions": "Is there a visible brake disc in {IMG} with no calliper next to it?"
+  },
+  "b24_reflectors": {
+   "set": "core",
+   "item": "B24",
+   "instructions": "Each real wheel has exactly one amber or orange reflector on its spokes. In {IMG}, does any wheel whose spokes are clearly visible have no reflector, or more than one?"
+  },
+  "b24_front_missing": {
+   "set": "detail",
+   "item": "B24",
+   "instructions": "Where the front wheel's spokes are clearly visible in {IMG}, is there no amber or orange reflector on them?",
+   "criteria": {
+    "true": "The front spokes are clearly visible and have no reflector.",
+    "false": "There is a reflector, or the front spokes are not clearly visible."
+   }
+  },
+  "b24_rear_missing": {
+   "set": "detail",
+   "item": "B24",
+   "instructions": "Where the rear wheel's spokes are clearly visible in {IMG}, is there no amber or orange reflector on them?",
+   "criteria": {
+    "true": "The rear spokes are clearly visible and have no reflector.",
+    "false": "There is a reflector, or the rear spokes are not clearly visible."
+   }
+  },
+  "b24_two_on_one": {
+   "set": "detail",
+   "item": "B24",
+   "instructions": "Does any single wheel in {IMG} carry two or more spoke reflectors?"
+  },
+  "b25_taillight": {
+   "set": "core",
+   "item": "B25",
+   "instructions": "The real taillight is red, with a hexagon pattern, under the back of the seat. Is the taillight in {IMG} missing, another colour, or a different shape?",
+   "criteria": {
+    "true": "The back of the seat is visible and the taillight is missing or different.",
+    "false": "It matches, or the back of the seat is not visible."
+   }
+  },
+  "b25_round": {
+   "set": "detail",
+   "item": "B25",
+   "instructions": "Is the taillight in {IMG} small and round rather than an elongated wedge?",
+   "criteria": {
+    "true": "The taillight is visible and is small and round.",
+    "false": "It is an elongated wedge, or not visible."
+   }
+  },
+  "b26_kickstand_look": {
+   "set": "core",
+   "item": "B26",
+   "instructions": "The real kickstand is black, on the bike's left side, with a round red badge. In {IMG}, is the kickstand on the right side, a colour other than black, or missing its red badge?",
+   "criteria": {
+    "true": "The kickstand is visible and differs.",
+    "false": "It matches, or the kickstand is not visible."
+   }
+  },
+  "b26_badge_missing": {
+   "set": "detail",
+   "item": "B26",
+   "instructions": "Where the outer face of the kickstand is clearly visible in {IMG}, is the round red badge missing?",
+   "criteria": {
+    "true": "The kickstand's outer face is clearly visible and has no red badge.",
+    "false": "The badge is there, or the outer face is not clearly visible."
+   }
+  },
+  "b27_pedals": {
+   "set": "core",
+   "item": "B27",
+   "instructions": "Are the pedals in {IMG} anything other than black platform pedals with amber reflectors?",
+   "criteria": {
+    "true": "The pedals are visible and differ.",
+    "false": "They match, or the pedals are not visible."
+   }
+  },
+  "b27_no_reflectors": {
+   "set": "detail",
+   "item": "B27",
+   "instructions": "Where a pedal's front or back edge is clearly visible in {IMG}, is the amber reflector missing?",
+   "criteria": {
+    "true": "A pedal edge is clearly visible and has no amber reflector.",
+    "false": "The reflector is there, or no pedal edge is clearly visible."
+   }
+  },
+  "b28_pegs": {
+   "set": "core",
+   "item": "B28",
+   "instructions": "Near the rear axle the real bike has fold-out passenger foot pegs with ribbed rubber tread. In {IMG}, are the pegs missing, or is their tread anything other than ribbed rubber?",
+   "criteria": {
+    "true": "The rear axle area is visible and the pegs are missing or their tread is not ribbed.",
+    "false": "Ribbed pegs are there, or the area is not visible."
+   }
+  },
+  "b28_peg_shape": {
+   "set": "detail",
+   "item": "B28",
+   "instructions": "Are the passenger foot pegs in {IMG} round cylinders or metal tubes rather than flat pads with rubber tread?",
+   "criteria": {
+    "true": "The pegs are visible and are cylinders or tubes.",
+    "false": "They are flat treaded pads, or not visible."
+   }
+  },
+  "b29_chain_colour": {
+   "set": "core",
+   "item": "B29",
+   "instructions": "Are the chain and gear cassette in {IMG} dark grey or black, rather than bare silver metal?",
+   "criteria": {
+    "true": "The chain or cassette is visible and is dark grey or black.",
+    "false": "They are bare silver, or not visible."
+   }
+  },
+  "b29_drive_missing": {
+   "set": "core",
+   "item": "B29",
+   "instructions": "When the bike's right side is visible in {IMG}, is the chain, gear cassette or rear derailleur missing?",
+   "criteria": {
+    "true": "The right side of the rear wheel is visible and the chain or gears are missing.",
+    "false": "They are present, or the bike's right side is not visible."
+   }
+  },
+  "b29_chain_broken": {
+   "set": "detail",
+   "item": "B29",
+   "instructions": "Does the chain in {IMG} hang loose, break, or fail to connect the chainring to the rear gears?",
+   "criteria": {
+    "true": "The chain is visible and is broken, loose or not connected.",
+    "false": "It runs from the chainring to the rear gears, or is not visible."
+   }
+  },
+  "b30_chainring": {
+   "set": "core",
+   "item": "B30",
+   "instructions": "Is the chainring in {IMG} missing its black spoked guard ring, or is it a colour other than black?",
+   "criteria": {
+    "true": "The chainring is visible and differs.",
+    "false": "It matches, or the chainring is not visible."
+   }
+  },
+  "b30_no_chain": {
+   "set": "detail",
+   "item": "B30",
+   "instructions": "Is the chainring in {IMG} shown with no chain running on it?",
+   "criteria": {
+    "true": "The chainring is visible and has no chain on it.",
+    "false": "A chain runs on it, or the chainring is not visible."
+   }
+  },
+  "b31_hub": {
+   "set": "core",
+   "item": "B31",
+   "instructions": "Is the rear hub motor (the drum at the centre of the rear wheel) in {IMG} any colour other than black?"
+  },
+  "b31_hub_missing": {
+   "set": "detail",
+   "item": "B31",
+   "instructions": "Does the rear wheel in {IMG} have a small ordinary bicycle hub instead of a large drum-shaped hub motor?",
+   "criteria": {
+    "true": "The rear hub is visible and is small, with no motor drum.",
+    "false": "It has a large drum hub, or the hub is not visible."
+   }
+  },
+  "b32_extra_emblem": {
+   "set": "core",
+   "item": "B32",
+   "instructions": "The real bike's only emblem is a small white line-art badge on the head tube and on top of the front fender. Is there any other emblem, logo or animal badge drawn anywhere else on the bike in {IMG}, or does the badge look like a different design?"
+  },
+  "b32_animal_face": {
+   "set": "detail",
+   "item": "B32",
+   "instructions": "Is there an animal head or face emblem anywhere on the bike in {IMG}?"
+  },
+  "b32_top_tube_emblem": {
+   "set": "detail",
+   "item": "B32",
+   "instructions": "Is there an emblem on the top tube or seat rail of the bike in {IMG}?"
+  },
+  "b32_emblem_covered": {
+   "set": "detail",
+   "item": "B32",
+   "instructions": "Is the emblem on the front fender in {IMG} partly covered or overlapped by the headlight or its cage?",
+   "criteria": {
+    "true": "The fender emblem is visible and partly covered by the headlight or cage.",
+    "false": "It is clear of the headlight, or not visible."
+   }
+  }
+ },
+ "view_question": {
+  "id": "view",
+  "type": "choice",
+  "instructions": "From which camera angle is `photo` taken? Use `sides` to tell the bike's right from its left.",
+  "options": [
+   "right-side",
+   "left-side",
+   "front",
+   "rear",
+   "top",
+   "three-quarter-front-right",
+   "three-quarter-front-left",
+   "three-quarter-rear-right",
+   "three-quarter-rear-left",
+   "cockpit",
+   "detail"
+  ],
+  "option_order": "shuffled per image with a fixed seed, because Jev 1.13 was documented to lean toward the first option"
+ }
+}

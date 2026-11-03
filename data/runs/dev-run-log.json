@@ -1,0 +1,23 @@
+{
+ "run_id": "20261103T035526Z",
+ "set": "dev",
+ "model_requested": "jev-1.14.0",
+ "models_answered": [
+  "jev-1.14.0"
+ ],
+ "calls": 9,
+ "ok": 9,
+ "errors": [],
+ "input_tokens": 130961,
+ "output_tokens": 16314,
+ "price_per_m_input_usd": 0.042,
+ "cap_usd": 5.0,
+ "cost_usd": 0.0055,
+ "tiles_median_latency_ms": 694,
+ "tiles_mean_input_tokens": 26642,
+ "view_median_latency_ms": 247,
+ "view_mean_input_tokens": 5192,
+ "whole_median_latency_ms": 416,
+ "whole_mean_input_tokens": 11819,
+ "projected_full_run_cost_usd": 0.053169
+}

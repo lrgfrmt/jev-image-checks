@@ -1,0 +1,1457 @@
+{
+ "origin": "synthetic: AI-generated product images (the images themselves are not published)",
+ "max_side": 1568,
+ "refused_by_filter": [],
+ "images": {
+  "A-01": {
+   "source": "A-01-right-side.jpg",
+   "source_size": [
+    2528,
+    1696
+   ],
+   "view": "right-side",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1052
+    ],
+    "sha256": "6579207b46027347d1da7daaaac3a04f69867806de3324550694ba6365db649c"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "44beb2ec04f4be97d0ea49eb0cf584eceed7aa4efacfadb3d2d6ae3f4b3bb12a"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "0f1b1864b589721669206737c1ca8be8b11419c0a3a8c1f8d5d310a469e64c93"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "205b58d665b6ba3cd0f861a0773f771131592bca459be4390dc1b2b2a0341346"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "1611e535a1152d46426127be00fb999a34ae38f5d161546861e6b3fe139d224c"
+    }
+   ]
+  },
+  "A-02": {
+   "source": "A-02-left-side.jpg",
+   "source_size": [
+    2528,
+    1696
+   ],
+   "view": "left-side",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1052
+    ],
+    "sha256": "5875800749963a3ab9d8a5041781fbdd68ba36fa253af1ee51e4296741758d63"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "f4a5eb359a8df60ef7b49d80fe3156dccd9abaf9193858633a6709add6ecab3e"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "c657df3e89283d5f16d21bb770c11e78d1388a1e13363c646079b1ce2492b455"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "5172b2feb30cea3127eb75009e535d5601e35837d22881b1a11d43fc7c3c0b01"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "7ee2a9559f209c3e8c53297aae2d4e1e631be05af01d9f621fa31c6022173cbd"
+    }
+   ]
+  },
+  "A-03": {
+   "source": "A-03-front.jpg",
+   "source_size": [
+    1696,
+    2528
+   ],
+   "view": "front",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1052,
+     1568
+    ],
+    "sha256": "fe0b15cc0883e8b8a61dc0b3a54f3b80d3a5d0e9aab0ac75ce43de75bd6a4d1b"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "1a6aa488cce121c70f3b276db64f4c9bf965f0a70420be15a1f53eb1d5328dbd"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "3001f2d9e2b8925253e671621ef1e29d7fdfc6fd6dcff50ea1bcfbd5de079dd4"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "9b18967ac5ba5825d80b08e63553bd1b350d80d155ce959c8386c46bf1dc9d5e"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "69803854b9b42409a931b6d755ecf0d5a6344074d241e40b7da97fc3d3376a0b"
+    }
+   ]
+  },
+  "A-04": {
+   "source": "A-04-rear.jpg",
+   "source_size": [
+    1696,
+    2528
+   ],
+   "view": "rear",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1052,
+     1568
+    ],
+    "sha256": "5871b76fd3aa84750c921f53d35b24dc37164e48e79dbbc597a9d4d3836d23e6"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "0ccbc30ac18a7fd88fdef5c7fae6a746603a0dc775bb258996a6666ff9572b10"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "0d88f266c7fd1cd5aa102b9c1c53e7a7e9ff80815cec62d1733c7c3351f40d27"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "03f9975714ac51ce81668a8447af90b1262e17c567d7d097c1b7fb562a44c198"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "f33c7e8a1dcfac4bf507b63d7017ce6afd5e5cc4e56d5046ecd7ffa5437671bd"
+    }
+   ]
+  },
+  "A-05": {
+   "source": "A-05-top.jpg",
+   "source_size": [
+    2752,
+    1536
+   ],
+   "view": "top",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     875
+    ],
+    "sha256": "d10e4e5862b68a517af354249a11f18f54ccfc5911027f7e14d04933f95afff8"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "7dfcf730b5e63574d363aef2bf81f6f771afc8f0288367ecc6f407af179f5904"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "bb1b526201b06955e641081fa5ed1660b9665e0f96563eb1c1021c1c8e1f5475"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "088957fb439620342361227418c123a25a842b6fda5f91cd3ec1509320011b52"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "52ae61754654903442dd4350e145a8d5f462b920b469dc6114274adffc2e115a"
+    }
+   ]
+  },
+  "A-06": {
+   "source": "A-06-three-quarter-front-right.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-front-right",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "a6d8e2c42ac953cd18bca866e2da04d71b4eca86e9a3f8b64e863dd4cc73998c"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "3bb07d20b2d8c067aa9ccca82b6164353278dd0a5aa9c3038dca0147348364fc"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "0130099a3341540b8662636f74b72880ee5d3cc85532df20186d7dfdf33703a3"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "799957ec9240e454e5cace058893a598710c293e7a74ea6970fdf22f5410454b"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "58f872dc3449b4d73f6e0f62aba655a577c96cd57f93557220221057c7e4084f"
+    }
+   ]
+  },
+  "A-07": {
+   "source": "A-07-three-quarter-front-left.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-front-left",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "9c82c3680bc2e7ed50023a8380959ec71b9dba69a195800b8473c58357cab7ba"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "47b2f17e9484f13022901539953db515408df778f4e71837401d2c6673a9edaf"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "bf36953db922016ecd7b45cd01f4500901e87e4ae017a84c29c8b5e8d8968f6e"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "6210f3d33069cb206f39bb7ba0897598fe81a25a5eb808e966c4de5c1e3897dd"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "a2093dee5d7572a5b4e7dda85e933d9119b07725997faef01e1d9c22e3543ce6"
+    }
+   ]
+  },
+  "A-08": {
+   "source": "A-08-three-quarter-rear-right.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-rear-right",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "fcdc7851eb5671c88575b79084a74aa204d1114dfe0546c7055d1b9f42a2bc55"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "927f888238616696c6d3fa8f00a37dbf3b6a591a0881125796aaefb78d9e41df"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "dbb5d4929c27ab82934c40dde546a005752b4eea9d68e7927600619fc24ddfc6"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "7182b94037989d95bfee81071fbbd3d49dc33d0aa9f7cd6bb04dbd5f1c1121ae"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "748de8ffa1432d984e2c2132b7833a32f4be2fbc64138b728c5b4156aa59e5d3"
+    }
+   ]
+  },
+  "A-09": {
+   "source": "A-09-three-quarter-rear-left.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-rear-left",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "478fab176fbe5c9d2b02cd8f07e932caa8225e9804f3fa930617391e1fa8b447"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "c28adaba0331ef3e451ab4cbf4e1f95e6478f4ce0f3a6f134662d9f6378113f6"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "9ac76bbc15582c40e898a1141f57102201e843dac7d08d766f6caf84db4a1138"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "c162652c27624b8e0656b6b05735ec791cdedc160b8b71e1acb492c14f91ca45"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "47155a34d2d61ffcf81e96b8d11d957d051b0b7f6c1d5dbb9c497d0ef960e21b"
+    }
+   ]
+  },
+  "A-10": {
+   "source": "A-10-cockpit.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "cockpit",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "6f6e8e516cc94c4bfebd07815b8a8976b63e106e0847a39541e5dccd371d8d77"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "1e3781f78725e4f6771b6ab8f6f3b3219937913dfdf240056f97f01571a8af12"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "b33eb40fad18f9594f81378e7f9add7c8585b09062473d67d3bdb82a18ff7387"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "2813a71fb201f90b61d46d6f56eb37c7b079a57d5e0615a5844979d856760125"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "69caafee25dcc3f57d78c1812f12ab18bff66cd50a994ee709987948dff0bbe6"
+    }
+   ]
+  },
+  "B-01": {
+   "source": "B-01-right-side.jpg",
+   "source_size": [
+    2528,
+    1696
+   ],
+   "view": "right-side",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1052
+    ],
+    "sha256": "8a784cf38cbcb234d47ed3abf97842759fd7c57e542059fc95960f8d6919b52c"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "f5a2b0bb7aa30ef9446d9d6be93fac93d27b61723494142d108c4b812f08f297"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "fb076e7ac2c555fca9f1a2b1584c7df51c9bcfc833079a6a468ddd33154623a8"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "0528ae3cdb20621521574fcf8419930c4f55ae2bf0a5bdb9fb089f60d0817d93"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "a52f08af9476cf231b62b01a99e553afe809aa47c7e212300d30982352fc3854"
+    }
+   ]
+  },
+  "B-02": {
+   "source": "B-02-left-side.jpg",
+   "source_size": [
+    2528,
+    1696
+   ],
+   "view": "left-side",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1052
+    ],
+    "sha256": "8dc44309e6bf375d29a5fe2befb64e3847b12af1f44468d305ee06816897dc4b"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "c54004f791f2a2a284081c20fdb309dc6b0fdbc9ab0b21342fe8f2e8a6727d8c"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "8dd1c42c951916908a98562e21291a9d7c2458762a02d3d7cbc8d9b84b5c46e5"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "f597fc37ca6e788e220696a000821a6918b4778cf920de1dd7124f07a9ae0d99"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "172bdf23ad5cdc0f89c68cd54015fc023858a21e64d513ad3431ec9648d871f4"
+    }
+   ]
+  },
+  "B-03": {
+   "source": "B-03-front.jpg",
+   "source_size": [
+    1696,
+    2528
+   ],
+   "view": "front",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1052,
+     1568
+    ],
+    "sha256": "a60ef25508e44727d28eca2f967ad55920f3bc6358ed1e38caee5fa83b96582e"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "632adb1005594d139a84ad72d5a7f54db8fde7ee04c904b54112f41e30ea492c"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "2145bdd050be29014b770179f3c15444ff81c8d757ee0258c85de6ea26132b83"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "90827bc5f8c30dd023e78ea76368a3b65271c6d0f68c2ed92bf00d821d656f0c"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "e942fcb4612dd6ea8050ecf789c9a50e939e760d44a71cbd1c5faa5f26d9391d"
+    }
+   ]
+  },
+  "B-04": {
+   "source": "B-04-rear.jpg",
+   "source_size": [
+    1696,
+    2528
+   ],
+   "view": "rear",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1052,
+     1568
+    ],
+    "sha256": "bef8fa8a14c65a061a16fbc0555f65731a1ea28f5038af32e0e751f00b5b6718"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "d4703d5ab310146572eeeb98a42fa85e0770dd8a9b4c11dc7873f607223027dd"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "fa4ca88e03fb36b894cd9e70f76d449cac5f68f574413e767204769de4ccb8c1"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "55a065e1c68787da6175b089b8531fe476dcbab5555c8d009329abfbbce71d3e"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "b923b13d2be020a440e947437c9421d90351e298dddee9a30ebae689cd12e8d4"
+    }
+   ]
+  },
+  "B-05": {
+   "source": "B-05-top.jpg",
+   "source_size": [
+    2752,
+    1536
+   ],
+   "view": "top",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     875
+    ],
+    "sha256": "b96e4d305f9daf22594088509c904a5a5a1c755dc9543c6b3d14e0918c0c6894"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "d3a4b91a72d403e9d408b7247d0cd0b8bc426496e4f1a23b6290f392de0b4115"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "9a657c0b0be0c2cc0ec827f367db69f4b56e2e24872929169da355633f053b87"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "d9d76526df6b8137fce7511a64d1e36125b5bf0eae4464994cd6773bcbc6d80c"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "7e08f3dc0d5fd800e4bc2b855c62ca56a74d5daa88ec6136c795d9643dab1abd"
+    }
+   ]
+  },
+  "B-06": {
+   "source": "B-06-three-quarter-front-right.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-front-right",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "47fe052eae13c234acc3ca938017ee1157e974870a64392c377b9b40bd105755"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "efd2917b07fe67777acee021c475b6a1e3c19b6df7e19ef46da0f29ad7fa9fd0"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "0803a72282f20991cda868f8e7a60483848eef26f94e3864f40965f6c4970887"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "2fd1bf1cefaf6a532bea6d6cf1de780ae975d326ea7df50faeded9718ed8c677"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "a4e8f65f2b72d09f10f923b728d625435fb926321ace86bdcef903cc8a816c62"
+    }
+   ]
+  },
+  "B-07": {
+   "source": "B-07-three-quarter-front-left.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-front-left",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "07ad2bf8a4426388fc016f27af18a1a30273dceedfc6870957f40155a1f574be"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "c25739fd1044b8ff3a0bfd5a0c1ec09c54adf70aac80f821896ab8829d65c002"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "8c88d8a3c5579c5a69bc47ec1a8fec358517f1aa81675d19d232b822a2a7ba9f"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "a2b160432edef91c73f83ff995718174e68b4af578388d802b7aa941d0bfae23"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "630e912a0e6c931cf8118d03b353881bcb6b1300fae6744d71789582544c03b2"
+    }
+   ]
+  },
+  "B-08": {
+   "source": "B-08-three-quarter-rear-right.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-rear-right",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "3e76540e1145348d90a1584d8bea9919679827644b4aa41c8b2568bd6e15195d"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "10a08c40b9afe03366a81276e9f3c3b42285e876220d4f1384980e55e5a39deb"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "40b3ed9bf309b0e473bc5013cf1f2c314bb41eb3e1d03b3d477cf2ca33c5818b"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "b2034c371a158c2242a7742fe0aef9f193e8a23f20b8546803cdaa18c2add191"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "333d2fb77866c5439195a62941effc41022a3358c3cbe87412b3929aba6a7587"
+    }
+   ]
+  },
+  "B-09": {
+   "source": "B-09-three-quarter-rear-left.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-rear-left",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "38ab528e4e1d5cb09971e3a6213ba2a82c8a25bb4b94fbbfc4478888aa66b063"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "5719249cebd4032ca8ec0ba670e253325303ebc7f9c666e7a938387ecce713cf"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "db499bd907878e726a5195d701763820d657d90c1d3946c164fa0f82f49b64c0"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "23401e54c32c049c9674d66470fbeae76e2807648c6d29b32356f43fe60240ae"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "f31abef83e378db92a76933d38fa77e6a56542a3c65f769904c2f14443c722fb"
+    }
+   ]
+  },
+  "B-10": {
+   "source": "B-10-cockpit.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "cockpit",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "50456d296a8b72a646b565c388145c49f294c2799df87cf3aebdd20c98e1de63"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "54ab6395da7cc36ce0b14054720cb414e94a76c3e7344a08e4eaf65b1ade16ab"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "fe31f6aa7f9d055995fc096df2929a09352472350c18d38e5acb6011d2b5a7a4"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "51ae878b4168d8c7405b2f2cb7d32a0c480bbc0f5ff1ada1998a009595316ddc"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "5e37b9270864900cd44cca62fd09ea2d42f011bd4be7a3c6dcbe4874d139061c"
+    }
+   ]
+  },
+  "C-01": {
+   "source": "C-01-right-side.jpg",
+   "source_size": [
+    2528,
+    1696
+   ],
+   "view": "right-side",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1052
+    ],
+    "sha256": "30de50d276406e240ececb6424b8babe262b03c4184125412c44fd68cc20af56"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "87c6ab621cc99ad73d4f8bc1faa5e4096e42b2e63425739c6dd24464d27fc3ff"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "cbf6fb9fbad48574045a70584630f5930ea142de3c2df30448676aedeb469c0e"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "28c3bafc8368c3940aee46c868ce93f78f77f2ebaa4721bc0fceb58569d7d07e"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "add9e3209cad6823268b4dddf122812c4b61f7b237f4986c7c5512ff1f04002c"
+    }
+   ]
+  },
+  "C-02": {
+   "source": "C-02-left-side.jpg",
+   "source_size": [
+    2528,
+    1696
+   ],
+   "view": "left-side",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1052
+    ],
+    "sha256": "c58af33e397fb592c4f9a7a9f1e9a8afd8f0942b21fd73301129bae9f972f417"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "d1a769638b93886656c609f373e2c03904b4609a87357248cd2985b807082f06"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "72b1f629ca298b05d943474af6c414720125fb1ff9ac461d0e0a624d5879da6e"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "c000c74eb0effcb900623ab17df61385054ec3fc4579b57d384bb725fe569b31"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1390,
+      932
+     ],
+     "sha256": "5f12ccc095c21af704fe69b9bd1328cb8487c461c1ecc9924dfe9e7da4f41e1b"
+    }
+   ]
+  },
+  "C-03": {
+   "source": "C-03-front.jpg",
+   "source_size": [
+    1696,
+    2528
+   ],
+   "view": "front",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1052,
+     1568
+    ],
+    "sha256": "d6efdbef64a7c1f1094708b7f5a55d93fcec6825c5d9b63507d3f747eba968d8"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "2b58826f61b7f8fcfc7bec43b3743504b27bf89fdd6b6305ce79de9258c0c04a"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "69f13269f23e7f65f6bc0f0291cbdd9a6a6aaba3849b9990735b5d7f0fe3d69d"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "e3957d5773468ee32d89ab9751f289501d2011b697e664070592906ba2f64355"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "4b0db9935ad0f7d1b6a141d3494604a6fb97dca5b8911a0ce492284e1eae48cc"
+    }
+   ]
+  },
+  "C-04": {
+   "source": "C-04-rear.jpg",
+   "source_size": [
+    1696,
+    2528
+   ],
+   "view": "rear",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1052,
+     1568
+    ],
+    "sha256": "b07476f38193b711d99374a4e5393c7995de474b9ba027282e8aba69a7c71222"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "c9a9e11403212cb1fcf48b901bfe25f7b06cfe4318051ae67702a9880711316f"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "3a0fc20256118de63f631e12056e56214a0951fec8ca8ee0947f6dd1f5e3eb0f"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "efd5b22a6f49e56a832646f4d3ecf4b118ef2e119cb70c300d7961acb9fdbba4"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      932,
+      1390
+     ],
+     "sha256": "12fb2afea6ab6dc4bd05f6dca969e9b96fa8d5b032333dfc397e614bd4254815"
+    }
+   ]
+  },
+  "C-05": {
+   "source": "C-05-top.jpg",
+   "source_size": [
+    2752,
+    1536
+   ],
+   "view": "top",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     875
+    ],
+    "sha256": "760d41587581154b36799df036f27ea1bd9c3eeede18590f4b0b2ada2fab35db"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "9354c277ebbb73e7026a8fceb2a84ab02af6e374bada4c513e8a320c17284816"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "819f41136747af796a59cf1fa1c165be234913d02b24e2fc4c37c93fbd696218"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "ec4e0f3e792a8a532d5447a78826a801a0a750c47c94d5cc4d003e55597c42a5"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1513,
+      844
+     ],
+     "sha256": "94d273b3b62c5c650b6cb0e2a646d5620a3756563d18cee76c1890c6d0889430"
+    }
+   ]
+  },
+  "C-06": {
+   "source": "C-06-three-quarter-front-right.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-front-right",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "7b7479cb7ee888afd6aa2c8d6fa8927f449af4370d06d25923b6706c3fd61848"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "962b1f5874e94db347548bd1bb331dd8f944259e0ffc441d6ee2292148c33b70"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "1d3122ba84b116e8dfe3c708d1b76690475619f2daa91e94c0bd3767dcb6c6da"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "b262cc7afcc498c60261b303eee4c1ee6c0f151b2cca1a625d57e4791caaeeb4"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "7b35c7defa23a020b77283e4963b9fb1f892fdd3f5bc8bf9cd6902da7422c4fb"
+    }
+   ]
+  },
+  "C-08": {
+   "source": "C-08-three-quarter-rear-right.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-rear-right",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "4d89377823a59cb9c76fb71d3933bda2621710e9750a84e0f8f5de0bd7cf0ddc"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "b691009c8aa63d07c9acd78702bbaff393952a6abee38e27fa052a82cdd7d636"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "2cbe8aa113c4baf95b2337b5c621f0c74da4ea5d4fa763b59db055cb6461fbae"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "b3d0b4b1a8b3929735f9a4137d2d4739be6914ea844f735a92c480f2972767e1"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "5a6787f9d6a49b68ac922e8fa248b5877b9e1738f8bc8da2b75548daac0458f2"
+    }
+   ]
+  },
+  "C-09": {
+   "source": "C-09-three-quarter-rear-left.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "three-quarter-rear-left",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "f9396bd6901ce44c3603b5b31bd16544f3178a5bdf8a86b25aedab47921bd165"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "0b6820d98ab0cecba84cd3cab904f41721da59b5e5b7c6ecb7e378148b18a6e6"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "0a3fca74f621eed1657aa73bdbc18baaf2c3c2870a501963fd8bc1de20e65732"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "bb024f8a84e0a13c84d17a118abb69e271eacfb50a9dafc8ba13c3b515d9b8eb"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "15a4af64b1bd67e22ec8e7379b29408fb6a14b74e0dd4305381c90ba34230a49"
+    }
+   ]
+  },
+  "C-10": {
+   "source": "C-10-cockpit.jpg",
+   "source_size": [
+    2304,
+    1856
+   ],
+   "view": "cockpit",
+   "whole": {
+    "file": "whole.jpg",
+    "size": [
+     1568,
+     1263
+    ],
+    "sha256": "bc9e5e0a632dad3261b7c36f3626eadf8cf2d70f67169a7af6a956a506796ba2"
+   },
+   "tiles": [
+    {
+     "file": "tile-1.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "d043dceeeb2a0fb68a2d6c6d5e66a2e59b14fea26d4784ab7525c3fb346f93e8"
+    },
+    {
+     "file": "tile-2.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "5d4f181027b34386fcd29728cd2f0e146572e1ead2f9ca67165d889f7aa5079e"
+    },
+    {
+     "file": "tile-3.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "f80de8808fe246050f71580ed1b19115d5b252e45235b5499dc63c5a4fe262e6"
+    },
+    {
+     "file": "tile-4.jpg",
+     "size": [
+      1267,
+      1020
+     ],
+     "sha256": "e89c31c848342f74484762147c45a4a81d406fe170e399ec94732321bf31fa25"
+    }
+   ]
+  }
+ }
+}
