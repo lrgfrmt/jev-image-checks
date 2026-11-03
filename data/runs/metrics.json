@@ -1,6 +1,6 @@
 {
  "question_set_version": "q2-2026-11-03",
- "outputs": "/tmp/claude-0/-home-claude/8c723030-b56f-51a9-934d-4dded990d820/scratchpad/jev-image-checks/data/runs/outputs.jsonl",
+ "outputs": "data/runs/outputs.jsonl",
  "models_answered": [
   "jev-1.14.0"
  ],
